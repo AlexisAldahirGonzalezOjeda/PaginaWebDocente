@@ -9,6 +9,7 @@
         <?php
         require_once 'Controlador/Controlador.php';
         $controlador = new Controlador();
+        $controlador->verPagina('Vista/html/principal.php')
         if (filter_input(INPUT_GET, "accion")) {
             if (filter_input(INPUT_GET, "accion") == "Inicio") {
                 $controlador->verPagina('Vista/html/principal.php');
