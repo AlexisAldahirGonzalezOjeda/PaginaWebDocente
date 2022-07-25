@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+    background-color: #dfdfdf;
+} 
+
+#cabecera{ 
+    display: flex; 
+    height: 75px;
+    background-color: #0000ff;
+    text-align: center;  
+} 
+
+#agrupar {
+ width: 960px;
+ margin: 15px auto;
+ text-align: left;
+}
+
+#menu li{ 
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    border: #ffffff 2px solid;
+    background-color: #0000ff;
+    margin-bottom: 1px;
+    font-size: medium;
+    text-align: center;
+    line-height: 8px; 
+    border-radius: 1px;
+    padding: 10px 20px; 
+    color: #ffffff;  
+} 
+
+#formulario>div{
+    text-align: right;
+    margin-right: 30%; 
+}
