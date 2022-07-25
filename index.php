@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        require_once 'Controlador/Controlador.php';
+        require_once 'Controlador/controlador.php';
         $controlador = new Controlador(); 
         if (filter_input(INPUT_GET, "accion")) {
             if (filter_input(INPUT_GET, "accion") == "Inicio") {
