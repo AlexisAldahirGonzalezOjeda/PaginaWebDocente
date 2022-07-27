@@ -39,7 +39,7 @@
                 </p>
                 <?php
                 //"host=sheep port=5432 dbname=test user=lamb password=bar"
-                $conexion = pg_connect("host=ec2-50-19-255-190.compute-1.amazonaws.com port=5432 dbname=zkthsrptvksxmv user=zkthsrptvksxmv password=297f7243f6066dfd85e419d6faf3cd622950a9bba1a556b0c4f65b89cffb951f");
+                $conexion = pg_connect("host=ec2-50-19-255-190.compute-1.amazonaws.com port=5432 dbname=d3cmr855thvoos user=zkthsrptvksxmv password=297f7243f6066dfd85e419d6faf3cd622950a9bba1a556b0c4f65b89cffb951f");
                 if ($conexion) {
                     echo "Sí";
                 } else {
