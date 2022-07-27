@@ -33,18 +33,7 @@
                 <h1>Agendar clase</h1>
                 <form name="formulario" id="formulario" method="get">
                     <div id="datos">
-                        Hora: <input type="text" name="nombre" id="nombre" required><br>
-                        Profesor: 
-                        <?php
-                        $conn = new Conexion();
-                        $conn->consultarProfesores();
-                        ?>
-                        <br>
-                        Materia: 
-                        <?php
-                        $conn = new Conexion();
-                        $conn->consultarMaterias();
-                        ?>
+                        Hora: <input type="text" name="nombre" id="nombre" required><br> 
                         <br>
                         Tipo de documento: 
                         <datalist id="documentos">
