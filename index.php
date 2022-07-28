@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body> 
+        <?php
+        require_once 'Controlador/controlador.php';
+        require_once 'Modelo/conexion.php';
+        $controlador = new Controlador(); 
+        if (filter_input(INPUT_GET, "accion")) {
+            if (filter_input(INPUT_GET, "accion") == "Inicio") {
+                $controlador->verPagina('Vista/html/principal.php'); 
+            }
+            if (filter_input(INPUT_GET, "accion") == "Formulario") {
+                $controlador->verPagina('Vista/html/formulario.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Sesion") {
+                $controlador->verPagina('Vista/html/iniciarSesion.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Registro") {
+                $controlador->verPagina('Vista/html/registro.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Matematicas") {
+                $controlador->verPagina('Vista/html/matematicas.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Fisica") {
+                $controlador->verPagina('Vista/html/fisica.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Quimica") {
+                $controlador->verPagina('Vista/html/quimica.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Programacion") {
+                $controlador->verPagina('Vista/html/programacion.php');
+            }
+        } else {
+            $controlador->verPagina('Vista/html/principal.php');
+        }
+        ?>
+    </body>
+</html>
