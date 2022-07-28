@@ -60,18 +60,18 @@
                             document.getElementById("current_date").innerHTML = fecha[2];
                         </script>-->
                         <br>
-                        Profesor: 
-                        <?php
-                        $conn = new Conexion();
-                        $conn->consultarProfesores();
-                        ?>
-                        <br>
                         Materia: 
                         <?php
                         $conn = new Conexion();
                         $conn->consultarMaterias();
                         ?>
                         <br>
+                        Profesor: 
+                        <?php
+                        $conn = new Conexion();
+                        $conn->consultarProfesores();
+                        ?>
+                        <br> 
                         Tipo de pago: 
                         <datalist id="pago">
                             <option value="Efectivo"></option>
