@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+ 
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title></title>
+        <title>Página Web del Profesor</title>
+        <link href="Vista\imagenes\icono.ico" rel="icon" />
+        <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css">
+        <script src="Vista/js/funciones.js"></script>
     </head>
     <body>
         <div id="cabecera">
@@ -31,7 +29,9 @@ and open the template in the editor.
             </div>
         </div>
         <?php
-        // put your code here
-        ?>
+        session_start();
+        $alumno = $_SESSION['nombre_usuario'];
+        echo "<h1>Bienvenido $alumno</h1>";
+        ?> 
     </body>
 </html>
