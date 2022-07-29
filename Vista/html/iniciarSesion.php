@@ -32,17 +32,13 @@
             <div id="agrupar">
                 <div id="formulario"> 
                     <h1>Iniciar sesión</h1>
-                    <form name="formulario" id="formulario" method="get">
+                    <form name="formulario" id="formulario" action="index.php?accion=Prueba" method="post">
                         <div id="datos"> 
                             Correo electrónico: <input type="email" name="email" id="email" required><br>
                             Contaseña: <input type="text" name="password" id="password" required><br> 
                             <input type="submit" id="enviar" value="Enviar"> 
                         </div>  
-                    </form>
-                    <?php 
-                    $conn = new Conexion();
-                    $conn->LogInAlumno('alexisgonzalez@gmail.com', 'password');
-                    ?>
+                    </form> 
                     <p name="boton"><a href="index.php?accion=Registro">Registrarse</a></p>
                 </div>
 
