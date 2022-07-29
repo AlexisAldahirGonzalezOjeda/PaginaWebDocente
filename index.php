@@ -35,6 +35,12 @@
             if (filter_input(INPUT_GET, "accion") == "Programacion") {
                 $controlador->verPagina('Vista/html/programacion.php');
             }
+            if (filter_input(INPUT_GET, "accion") == "Prueba") {
+                $controlador->verPagina('Vista/html/sesion.php');
+            }
+            if (filter_input(INPUT_GET, "accion") == "Cliente") {
+                $controlador->verPagina('Vista/html/cliente.php');
+            }
         } else {
             $controlador->verPagina('Vista/html/principal.php');
         }
