@@ -11,7 +11,7 @@
         <div id="cabecera">
             <div id="header">
                 <ul class="nav"> 
-                    <li><a href="index.php?accion=HistorialClases">Agendar clase</a></li>
+                    <li><a href="index.php?accion=Formulario">Agendar clase</a></li>
                     <li><a href="index.php?accion=Cliente">Historial de reservas</a></li>
                     <li><a href="index.php?accion=Inicio">Cerrar sesión</a></li>
                 </ul>
