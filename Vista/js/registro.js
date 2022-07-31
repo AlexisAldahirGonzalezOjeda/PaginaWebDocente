@@ -6,7 +6,7 @@ function iniciar() {
 function datosProfesor() {
     var elemento = document.getElementById('registroInput').value;
     if (elemento === 'Profesor') {
-        //document.getElementById('datosP').style.display = 'block'; 
+        document.getElementById('datosP').style.display = 'block'; 
         //document.getElementById('cargarD').style.required = false;
         //document.getElementById('turnoInput').style.required = false;
         //document.getElementById('cuenta').style.required = false;
