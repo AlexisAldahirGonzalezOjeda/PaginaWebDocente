@@ -4,7 +4,7 @@
     <head>
         <title>Página Web del Profesor</title>
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="Vista\imagenes\icono.ico"> 
+        <link rel="shortcut icon" href="Vista\imagenes\loginP.png">  
         <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css" media="all and (min-width: 621px)"> 
         <link rel="stylesheet" type="text/css" href="Vista/css/estilosCelular.css" media="all and (min-width: 0px) and (max-width: 620px)">
     </head>
