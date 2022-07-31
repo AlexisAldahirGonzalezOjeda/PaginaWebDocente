@@ -4,8 +4,8 @@
     <head>
         <title>Página Web del Profesor</title>
         <link href="Vista\imagenes\icono.ico" rel="icon" />
-        <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css" media="all and (min-width: 621px)"> 
-        <link rel="stylesheet" type="text/css" href="Vista/css/estilosCelular.css" media="all and (min-width: 0px) and (max-width: 620px)">
+        <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css" media="all and (min-width: 321px)"> 
+        <link rel="stylesheet" type="text/css" href="Vista/css/estilosCelular.css" media="all and (min-width: 0px) and (max-width: 320px)">
     </head>
     <body> 
         <div id="cabecera">
