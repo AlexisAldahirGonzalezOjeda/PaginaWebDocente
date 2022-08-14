@@ -14,7 +14,7 @@
     </head>
     <body style="height: 1220px">  
         <div id="cabecera">
-            <div id="headerInicio">
+            <div id="headerInicio" style="position: relative; left: 25%;">
                 <ul class="nav">
                     <li><a href="index.php?accion=Inicio">Inicio</a></li> 
                     <li><a href="index.php?accion=Servicios">Servicios</a>
