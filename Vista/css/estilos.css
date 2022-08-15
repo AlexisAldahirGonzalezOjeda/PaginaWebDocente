@@ -1,0 +1,400 @@
+body {
+    margin: 0px;
+    padding: 0px;  
+    width: auto;
+    height: auto;
+    background-color: #dfdfdf; 
+} 
+
+#cabecera{  
+    padding: 20px; 
+    height: 75px; 
+    background-color: #0000ff;   
+}
+
+#pie{
+    position: relative;
+    top: 30px;
+    display: block;
+    clear: both; 
+    padding: 20px; 
+    height: 75px; 
+    background-color: #0000ff;  
+} 
+
+#pie p a {
+    position: relative;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    width: 200px; 
+    left: 40%;
+    display: block;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #1d244a;
+    text-align: center;
+}
+
+h2{
+    color: #1d244a; 
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+p[name="boton"]{
+    text-decoration: none;
+}
+
+table {
+    position: absolute;
+    left: 20%;
+    border: #b2b2b2 1px solid;
+    text-align: center;
+}
+td, th {
+    border: black 1px solid;
+}
+
+#tablaA{
+    display: none;
+}
+
+#tablaP{
+    display: none;
+} 
+
+.servicio{
+    top: 20%;  
+    height:350px;  
+    text-align: center; 
+    display: block;
+}
+
+#servicio2{ 
+    position: relative;  
+    display: block;
+}
+
+#materias{
+    position: absolute;
+    left: 5%; 
+    box-sizing: border-box;
+    display: block;
+}
+
+.servicio p{
+    font-size: large;
+    font-family: cursive;
+}
+
+.servicio ul{
+    font-size: large;
+}
+
+#back a{ 
+    position: relative;
+    left: 30%;
+    color: green;  
+} 
+
+#next a{ 
+    position: relative;
+    left: 30%;
+    color: green;  
+} 
+
+/*
+p[name="boton"]{
+    width:90px;
+    margin:10px 50px; 
+    background-color:#0000ff; 
+}
+
+p[name="boton"] a {
+    background-color:#0000ff;
+    color:#fff;  
+    padding:10px;
+    text-decoration:none;  
+    display:block;
+}
+
+p[name="boton"] a:hover { 
+    background-color:#094293;
+}*/
+
+#contenido { 
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.boton{ 
+    position: relative; 
+    left: 20%; 
+    width:300px;
+    height:25px;  
+}
+
+#cuadroLogIn{ 
+    position: relative;
+    top: 50px;
+    left: 25%;
+    width:500px;
+    height:350px; 
+    background-color: #ffffff;
+    border:3px solid black;
+    border-radius:22px;
+    text-align: center;
+    display: block;
+}
+
+#img_login{
+    position: relative; 
+    width: 100px;
+    height: 100px; 
+}
+
+#imgIn{ 
+    position: relative;
+    display: block;
+    float:left;  
+    width: 70px;
+    height: 70px; 
+}
+
+#cuadroAgendamiento{ 
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width:590px;
+    height:600px; 
+    background-color: #ffffff;
+    border:3px solid black;
+    border-radius:22px;
+    text-align: left;
+}
+
+
+#cuadroRegistro{ 
+    position: relative;
+    top: 10px;
+    left: 20%;
+    width:680px;
+    height:1010px; 
+    background-color: #ffffff;
+    border:1px solid black;
+    border-radius:22px;
+    text-align: center; 
+    display: block;
+} 
+
+#ajustes{ 
+    position: relative;
+    top: 25%;
+    left: 20%;
+    width:680px;
+    height:400px; 
+    background-color: #ffffff;
+    border:1px solid black;
+    border-radius:22px;
+    text-align: center;
+    display: block;
+} 
+
+#Reservas{
+    position: relative; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.enviar{
+    position: relative; 
+    left: 20%; 
+    width:310px;
+    height:30px;
+    border:3px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+#enviar:hover{
+    border:1px solid blue;
+    background-color:#094293; 
+}
+
+.consultar{
+    position: relative; 
+    left: 20%; 
+    width:80px;
+    height:30px;
+    border:1px solid #848482;
+    background-color: #848482;
+    color: white;
+}
+
+#consultar:hover{
+    border:1px solid #848482;
+    background-color:#BEBEBE; 
+}
+
+.crear{
+    position: relative; 
+    left: 20%; 
+    width:80px;
+    height:30px;
+    border:1px solid #51d1f6;
+    background-color: #51d1f6;
+    color: white;
+}
+
+#crear:hover{
+    border:1px solid #51d1f6;;
+    background-color:#4682b4; 
+}
+
+.eliminar{
+    position: relative; 
+    left: 20%; 
+    width:80px;
+    height:30px;
+    border:1px solid red;
+    background-color: red;
+    color: white;
+}
+
+#eliminar:hover{
+    border:1px solid red;
+    background-color:#f34336; 
+}
+
+.modificar{
+    position: relative; 
+    left: 20%; 
+    width:110px;
+    height:30px;
+    border:3px solid green;
+    background-color: green;
+    color: white;
+}
+
+#modificar:hover{
+    border:1px solid green;
+    background-color:#00722e; 
+}
+
+.buscar{
+    position: relative; 
+    left: 20%; 
+    width:110px;
+    height:30px;
+    border:3px solid #ffd700;
+    background-color: #ffd700;
+    color: white;
+}
+
+#buscar:hover{
+    border:1px solid #ffd700;
+    background-color:#ebe939; 
+}
+
+.ir-arriba {
+    display:none;
+    padding:20px;
+    background:#024959;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
+
+/*
+#agrupar {
+ width: 960px;
+ margin: 15px auto;
+ text-align: left;
+}
+ 
+*/
+
+#header {
+    position: relative;
+    display: block;
+    float:left; 
+    left: 10%;
+    margin:auto;
+    width:520px; 
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+#headerInicio { 
+    position: relative;
+    display: block; 
+    margin:auto; 
+    left: 25%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+#nombre {
+    position: relative;
+    display: block; 
+    float:left; 
+    top: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    border: 1px solid #ffffff;
+    float:left;
+}
+
+.nav li a {
+    background-color: #0000ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color:#094293; 
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul { 
+    display: flex;
+}
+
+.nav li ul li {
+    border: 1px solid #ffffff;
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+#formulario>div{
+    text-align: center;
+    margin-right: 30%; 
+}
