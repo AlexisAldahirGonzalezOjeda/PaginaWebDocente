@@ -350,6 +350,7 @@ p[name="boton"] a:hover {
     display: block; 
     float:left; 
     top: 10%;
+    margin-left: 7%;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
