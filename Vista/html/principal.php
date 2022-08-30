@@ -43,7 +43,7 @@
             <h2>¿Tienes dudas?</h2>
             <p>
                 Si tienes dudas de cómo navegar mira el siguiente  <br/>
-                video, en tan solo 5 minutos te convertirás  <br/>
+                video, en menos de 5 minutos te convertirás  <br/>
                 en un experto <br/> 
             </p>
               
