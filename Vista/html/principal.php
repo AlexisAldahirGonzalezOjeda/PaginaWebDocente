@@ -46,6 +46,8 @@
                 video, en tan solo 5 minutos te convertirás  <br/>
                 en un experto <br/> 
             </p>
+              
+            <iframe width="480" height="270" src="https://www.powtoon.com/embed/gjYaWRIuB58/" frameborder="0" allowfullscreen></iframe>                                                            
             
             <h2>¡Revisa nuestra política de datos!</h2>
             <p>
