@@ -247,3 +247,15 @@ h2{
     bottom:20px;
     right:20px;
 }
+
+.aumentar {
+    display:block;
+    padding:20px;
+    background:#1d244a;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
