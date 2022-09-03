@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="Vista/css/estilos.css" media="all and (min-width: 621px)"> 
         <link rel="stylesheet" type="text/css" href="Vista/css/estilosCelular.css" media="all and (min-width: 0px) and (max-width: 620px)">
         <link rel="stylesheet" type="text/css" href="Vista/css/fonts.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="http://code.jquery.com/jquery-latest.js"></script> 
         <script src="Vista/js/arriba.js"></script>
     </head>
