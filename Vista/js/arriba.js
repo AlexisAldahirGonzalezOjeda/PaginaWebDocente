@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({
